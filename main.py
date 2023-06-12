@@ -1,7 +1,7 @@
 import json
 import random
 
-print("Welcome to Hangman's game and good luck!")
+print("Welcome to Hangman's game, good luck & have fun!")
 print("*" * 26)
 with open("hangman.json", "r") as f:
     json_object = json.loads(f.read())
